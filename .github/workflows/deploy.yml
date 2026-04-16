@@ -17,7 +17,7 @@ jobs:
         #Setup NodeJS
       - name: Setup NodeJS
         uses: actions/setup-node@v3
-        wiht:
+        with:
           node-version: 18
 
         #Install Dependencies
